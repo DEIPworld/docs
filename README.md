@@ -30,7 +30,8 @@ DEIP Protocol \(or Intellectual Capital Protocol\) is a Web 3.0 Layer-2 applicat
 
 The Intellectual Capital Protocol serves as a base protocol for multiple specific protocols implemented on top of it:  [Dynamic Liquidity Protocol](https://docs.deip.world/protocol/dynamic-liquidity-protocol), [Intangible Assets Yield Farming Protocol](https://docs.deip.world/protocol/yield-farming), [Collective Intelligence Protocol](https://docs.deip.world/protocol/collective-intelligence-protocol). 
 
-{% embed url="https://www.youtube.com/watch?v=hmfaRN76XTY" caption="Creator Economy Protocols powered by Web 3.0" %}
+Creator Economy Protocols powered by Web 3.0
+https://www.youtube.com/watch?v=hmfaRN76XTY
 
 ## DEIP&Polkadot Parachain
 
