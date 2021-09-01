@@ -6,7 +6,7 @@ description: >-
 
 # Getting started
 
-{% hint style="success" %}
+
 Our documentation space has four main sections:   
 - [Learn](https://docs.deip.world/learn) \(for learners\)  
 - [Build](https://docs.deip.world/build) \(for people who want to build a Portal\)  
