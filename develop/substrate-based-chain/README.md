@@ -8,7 +8,7 @@ description: Uses WASM and Rust.
 
 Follow our [Polkadot GitHub repository](https://github.com/DEIPworld/deip-polkadot) to get started 🛠️
 
-## Rust Setup
+## Rust Setup 
 
 First, complete the basic Rust setup instructions [doc/rust-setup.md](https://github.com/DEIPworld/deip-polkadot/blob/main/doc/rust-setup.md):
 
