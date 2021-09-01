@@ -8,7 +8,7 @@ description: Uses WASM and Rust.
 
 Follow our [Polkadot GitHub repository](https://github.com/DEIPworld/deip-polkadot) to get started 🛠️
 
-## Rust Setup 
+## Rust Setup
 
 First, complete the basic Rust setup instructions [doc/rust-setup.md](https://github.com/DEIPworld/deip-polkadot/blob/main/doc/rust-setup.md):
 
@@ -43,7 +43,7 @@ Once the project has been built, the following command can be used to explore al
 To build and open a rust doc:
 
 ```text
-cargo doc --package <spec> --open 
+cargo doc --package <spec> --open
 ```
 
 Replacing with one of the included pallets \(i.e. `cargo doc --package pallet-deip --open`\).

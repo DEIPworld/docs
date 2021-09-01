@@ -10,7 +10,7 @@ The Creator Economy Protocol is a Web 3.0, domain-specific protocol for intangib
 
 The Creator Economy Protocol is a fundamental protocol of DEIP's infrastructure. It represents a set of operations that act like building blocks to compose solutions for Portal-specific services. 
 
-An operation is the smallest unit of the protocol dedicated to modify the state of a blockchain relying on predefined rules. Multiple operations can be combined into a transaction to be executed atomically. A composition of operations inside a transaction is able to reflect a specific business process. This allows Portals to set up and build services to achieve their specific goals.
+An operation is the smallest unit of the protocol dedicated to modifying the state of a blockchain based on predefined rules. The composition of operations within a transaction can reflect a specific business process. It allows Portals to set up and build services to achieve their individual goals. It is possible to combine multiple operations into an atomic transaction.
 
 ![](../../.gitbook/assets/search-1-4x.png) Find out more about Creator Economy Protocol possibilities:
 
