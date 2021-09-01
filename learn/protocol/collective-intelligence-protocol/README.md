@@ -12,7 +12,7 @@ Intangible assets are the assets of the future and crucial components of the cre
 
 DEIP infrastructure provides a protocol that can potentially solve the trust problem in a radical way, by using our implementation of a **proof-of-reputation class of protocols - DEIP Collective Intelligence Protocol**. 
 
-The Collective Intelligence Protocol is a part of the Decentralized Assessment System. 
+The Collective Intelligence Protocol was used as the fundamental protocol in the development of the Decentralized Assessment System.
 
 {% hint style="info" %}
 The Decentralized Assessment System \(DAS\) is a set of tools, frameworks, protocols, and agent-based simulations used to build multidimensional proof-of-reputation systems and combine them with crowdsourcing mechanisms.   
