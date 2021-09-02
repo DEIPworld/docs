@@ -51,7 +51,7 @@ Once a liquidation auction is triggered, a special liquidation smart contract ta
 The protocol takes a percentage of the F-NFT pool \(determined by a risk-assessment smart contract based on the currency governance configuration\) and splits it into two auction slots of two different types: “**pooled**” and “**segregated**”. 
 
 * **Pooled** slots contain a percentage of all the assets from Vault F-NFTs pool into a single slot, and provides immediate price discovery for the Vault F-NFTs assets when they are bought. 
-* **Segregated** slots are created for each N-NFT in the Vault. 
+* **Segregated** slots are created for each F-NFT in the Vault. 
 
 The percentage is the same for each F-NFT and determined by the liquidation smart contract based on current on-chain governance settings. 
 
