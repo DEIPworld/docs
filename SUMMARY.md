@@ -2,7 +2,6 @@
 
 * [Getting started](README.md)
 * [Glossary](glossary.md)
-* [Launch Roadmap](launch-roadmap.md)
 
 ## LEARN
 
