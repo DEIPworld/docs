@@ -32,7 +32,7 @@
 * [Substrate-based chain](develop/substrate-based-chain/README.md)
   * [Rust setup](develop/substrate-based-chain/rust-setup.md)
   * [Testing guide](develop/substrate-based-chain/testing-guide.md)
-  * [Substrate-based chain docs](https://deipworld.github.io/deip-polkadot/pallet_deip/index.html)
+  * [Substrate-based chain docs](https://deipworld.github.io/deip-substrate/pallet_deip/)
 * [Legacy](develop/legacy/README.md)
   * [Graphene](develop/legacy/deip-graphene/README.md)
     * [Building](develop/legacy/deip-graphene/building.md)
