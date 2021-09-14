@@ -38,7 +38,7 @@ Governance of F-NFT and underlying intangible assets is performed using DAOs or 
 | :--- | :--- |
 | **Asset authentication** | Each asset — whether it’s an invention, a film script, or any other high-value digital asset — needs to be verified for authenticity. Once verified, the record will be stored on-chain for any other party to check. |
 | **Fractionalization smart contract** | This contract allows the creator and owner of the asset to specify the token properties or metadata, including the number of tokens to create and how and to whom to initially distribute ownership. |
-| **F-NFT listing** | This function lists an F-NFT on the exchange and provides a common exchange functionality such as order books, matching, and selling/buying of the token. It also provides full transparency and informs owners of new ownership or rights repartition on the asset. Since it is a Polkadot Parachain, DEIP Network enables additional liquidity from other Polkadot Parachains, for example, DEXs and liquidity pools. |
+| **F-NFT listing** | This function lists an F-NFT on the exchange and provides a common exchange functionality such as order books, matching, and selling/buying of the token. The F-NFT listing also contributes to full transparency and informs holders of new ownership or rights repartition of the asset. Since it is a Polkadot Parachain, DEIP Network enables additional liquidity from other Polkadot Parachains, for example, DEXs and liquidity pools. |
 
 DEIP focuses on the tokenization of intangible assets with significant underlying value. We strongly believe that these types of assets will not only be very popular among the crypto investor community, but will also bring new users to the Web 3.0 ecosystem, thus driving adoption.
 
