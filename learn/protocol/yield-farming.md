@@ -20,13 +20,17 @@ Each F-NFT has **metadata**. One of the metadata attributes is a **category/segm
 
 Every account in the network can stake **DEIP** [**tokens** ](../token.md)on a specific category to increase the amount of funding allocated from the **Ecosystem Fund** to a specific category of F-NFT. The distribution of capital in the Ecosystem Fund is proportional to the amount of **DEIP tokens** staked on each specific category. 
 
-Since every F-NFT also has a metadata attribute that specifies the platform it is issued on, it’s also possible to stake DEIP tokens to change the distribution of capital allocated for each issuance platform. After network participants have staked their tokens, the Ecosystem Fund will have a special allocation to spend on investments in specific issuance platforms. By default, 5% of the profit from the Ecosystem Fund's investment activities is distributed among those who staked in the category which made this profit.
+One of the metadata attributes in every F-NFT is a category/segment of an underlying intangible asset and each F-NFT has a metadata attribute that specifies the platform it is issued on. The metadata attributes allow you to stake DEIP tokens on a particular category to increase the number of funding allocated from the Ecosystem Fund to a specific category of F-NFT. This means that you can stake DEIP tokens to change the distribution of capital allocated for each issuance platform and this increases the platform’s chances of receiving investment from the fund.
 
-This creates an incentive to stake DEIP tokens in categories/segments of F-NFTs which will generate the most profits. However, the Council investment decisions and the eventual distribution of capital can differ from the distribution staked by F-NFT segments. The difference tells us who was better in investment decisions - the Council or the Community of yield farmers. If the performance of the community is better by {delta} then the next allocation of the DEIP Ecosystem Fund for the community-driven investments will be increased. The initial and minimum percentage of allocated capital for community-driven investment decisions is 20% and the maximum allocation is 80%.
+Since every F-NFT also has a metadata attribute that specifies the platform it is issued on, it’s possible to stake DEIP tokens to change the distribution of capital allocated for each issuance platform. After network participants have staked their tokens, the Ecosystem Fund will have a special allocation to spend on investments in specific issuance platforms. By default, 5% of the profit from the Ecosystem Fund's investment activities is distributed among those who staked in the category which made this profit.
+
+This creates an incentive to stake DEIP tokens in categories/segments of F-NFTs which will generate the most profits. However, the Council investment decisions and the eventual capital distribution differ from the distribution staked by F-NFT segments. It is like a competition in token staking between the Council and yield farmers. The result of this "competition" is to get investments from the fund and tells us who was better at investment decisions — the Council or the Community of yield farmers. 
+
+If the performance of the community is better by {delta} then the next allocation of the DEIP Ecosystem Fund for the community-driven investments will be increased. The initial and minimum percentage of allocated capital for community-driven investment decisions is 20% and the maximum allocation is 80%.
 
 ![Yield farming by asset segments](../../.gitbook/assets/assets_wiki_-mzbonxaba-qbxpdued0_-mzbp6b9kaz21e1dvszk_7.jpeg)
 
-The profit from yield farming $$P_{ki}$$ for an account i from all accounts \[1,N\] staked stakes $$ST_i$$ with a total amount $$ST$$ total on a segment $$k$$ is calculated with the next formula:
+The profit from yield farming $$P_{ki}$$ for an account i from all accounts \[1,N\] staked stakes $$ST_i$$ with a total amount $$ST$$ total on a segment $$k$$ is calculated with the formula:
 
 $$
 P_{ki} = \frac{ST_{ki}*\underset{d=day(now)-30}\Sigma P_{kd}}{\sum_{j=1}^{j=N}{ST_{kj}}}
