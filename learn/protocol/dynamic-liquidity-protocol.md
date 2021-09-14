@@ -46,7 +46,7 @@ The Dynamic Liquidity Protocol determines whether a liquidation auction should t
 Each Vault has its own Liquidation Ratio based on the assets stored in it and the risk profile of the particular collateral asset type. 
 {% endhint %}
 
-Once a liquidation auction is triggered, a special liquidation smart contract takes a percentage of the assets pool \(F-NFTs pool\) in the Vault and puts it on auction. Separately, the contract places assets from the **Stabilization assets pool** on the liquidation auction. 
+Each Vault consists of two pools: an F-NFT pool and an asset-stabilization pool. Once a liquidation auction is triggered, a special liquidation smart contract takes a percentage of the assets pool \(F-NFTs pool\) and puts it on auction. At the same time and independently of the process with the F-NFT pool, the smart-contract refers to the assset-stabilization pool, withdraws the assets from it, and auctions them.
 
 The protocol takes a percentage of the F-NFT pool \(determined by a risk-assessment smart contract based on the currency governance configuration\) and splits it into two auction slots of two different types: “**pooled**” and “**segregated**”. 
 
