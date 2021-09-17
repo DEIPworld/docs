@@ -22,7 +22,7 @@ F-NFT stands for a Fractionalized Non-Fungible Token \(NFT\). You can think of i
 
 Governance of F-NFT and underlying intangible assets is performed using DAOs or individual accounts in the network. A simple DAO can be implemented as a multi-signature account with a votes threshold required to operate. Various other DAO governance models can be implemented and plugged in. __
 
-![F-NFT structure in the DEIP Network](../../.gitbook/assets/assets_wiki_-mzbonxaba-qbxpdued0_-mzbp6b41mp5bacpqrix_2.jpeg)
+![F-NFT structure in the DEIP Network](../../.gitbook/assets/f-nft-structure-infographics-3x-1-.png)
 
 ### Benefits
 

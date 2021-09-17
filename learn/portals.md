@@ -18,7 +18,7 @@ A Portal focuses on a specific **intangible asset class**, such as invention/pat
 
 Portal owners are represented in the network as DAOs and their role in the protocol is as gatekeepers.
 
-![DEIP infrastructure overview](../.gitbook/assets/technical-documentation-map-3-.jpg)
+![DEIP Network overview](../.gitbook/assets/group-13.png)
 
 ## Security deposit
 

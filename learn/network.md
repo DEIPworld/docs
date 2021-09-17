@@ -6,6 +6,8 @@ description: Read on to learn about DEIP Network.
 
 DEIP Network is an open-source network of [Portals](portals.md) \(projects, businesses\) that are built using DEIP technologies. Anyone is welcome to create their own portal which should have a specific theme to it. Portals are gateways to DEIP infrastructure and provide all of the necessary underlying features \(e.g. user interface, off-chain data, regulation compliance, KYC/AML\) and services required to interact with the network.
 
+![DEIP Network overview](../.gitbook/assets/group-13.png)
+
 ## Validators and consensus
 
 The DEIP Network is secured by the **Hybrid Nominated-Proof-of-Stake Consensus algorithm**. In order to add additional security and integrate with other Polkadot Parachains, the DEIP Network will secure a **Parachain Slot** in the **Polkadot Relay Chain**. 
