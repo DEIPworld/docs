@@ -30,7 +30,6 @@
 * [Development introduction](develop/development-introduction.md)
 * [Operations](develop/creators-economy-protocol.md)
 * [Substrate-based chain](develop/substrate-based-chain/README.md)
-  * [Event-proxy module. Kafka Streaming](develop/substrate-based-chain/event-proxy-module.-kafka-streaming.md)
   * [Rust setup](develop/substrate-based-chain/rust-setup.md)
   * [Testing guide](develop/substrate-based-chain/testing-guide.md)
   * [Substrate-based chain docs](https://deipworld.github.io/deip-substrate/pallet_deip/)
