@@ -1,12 +1,12 @@
 ---
 description: >-
   Read on to find out where you can access information and guides on developing
-  DEIP technologies .
+  DEIP technologies.
 ---
 
 # Development introduction
 
-DEIP's flexible system permits you to build your infrastructure. It requires strong programming skills to immerse yourself in the low-level technical features of the technology to develop your custom solution based on the [Creator Economy Protocol](../learn/protocol/).
+DEIP's flexible system allows you to build Web-3 infrastructure. It requires strong programming skills to immerse yourself in the low-level technical features of the technology to develop your custom solution based on the [Creator Economy Protocol](../learn/protocol/).
 
 ## Development guide
 

@@ -26,7 +26,7 @@ First, install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose
 
 Then run the following command to start a single node development chain.
 
-This command will firstly compile your code, and then start a local development network. You can also replace the default command \(`cargo build --release && ./target/release/node-template --dev --ws-external`\) by appending your own. A few useful ones are as follow.
+This command will firstly compile your code, and then start a local development network. You can also replace the default command \(`cargo build --release && ./target/release/node-template --dev --ws-external`\) by appending your own. A few useful ones are as follows:
 
 ```text
 # Run Substrate node without re-compiling
@@ -41,7 +41,7 @@ This command will firstly compile your code, and then start a local development 
 
 ## Automation Testing
 
-The `make tests` command will launch comprehensive test suite.
+The `make tests` command will launch the comprehensive test suite.
 
 To launch only pallet tests run:
 
@@ -51,11 +51,11 @@ cargo test -p pallet-deip
 
 ## Manual testing
 
-First, launch a node. Use this [link](https://polkadot.js.org/apps/#/extrinsics?rpc=ws://127.0.0.1:9944) to open the Polkadot JS Apps UI and automatically configure the UI to connect to the local node. Go to Setting &gt; Developer and insert content of `../pallets/deip/src/types.json` into input and save. This is necessary in order to UI understand unknown types.
+First, launch a node. [Open the Polkadot JS Apps UI](https://polkadot.js.org/apps/#/extrinsics?rpc=ws://127.0.0.1:9944) and automatically configure the UI to connect to the local node. Go to Settings &gt; Developer and insert `../pallets/deip/src/types.json` into input and save. This is necessary for the UI to understand unknown types.
 
 ### Basic working group management \(DAO\)
 
-For basic working group management managment we are integrated [multisig pallet](https://docs.rs/pallet-multisig/3.0.0/pallet_multisig/). To create Account go to Accounts &gt; Accounts &gt; + Multisig. All Exterenics below can be executed on behalf Multisig account as a working group.
+For basic working group management we integrate with [multisig pallet](https://docs.rs/pallet-multisig/3.0.0/pallet_multisig/). To create an account, go to Accounts &gt; Accounts &gt; + Multisig. All Exterenics below can be executed on behalf of a Multisig account as a working group.
 
 ### Project and IP management
 
@@ -63,7 +63,7 @@ Go to Developer &gt; Exterenics. Each following step required submit signed tran
 
 #### 1. Create domain
 
-Save Domain hash into blockchain. **Pallet**: deip Account: Choose any account with positive balance Function: `addDomain(domain)`
+Save the domain hash to the blockchain. **Pallet**: deip account: Choose any account with a positive balance function: `addDomain(domain)`
 
 ```text
 {
@@ -73,7 +73,7 @@ Save Domain hash into blockchain. **Pallet**: deip Account: Choose any account w
 
 #### 2. Create project
 
-**Pallet**: deip Account: Choose any account with positive balance Function: `createProject(project)`
+**Pallet**: deip account: Choose any account with a positive balance function: `createProject(project)`
 
 ```text
 {
@@ -92,7 +92,7 @@ Save Domain hash into blockchain. **Pallet**: deip Account: Choose any account w
 
 #### 3. Update project
 
-**Pallet**: deip Account: Choose any account with positive balance Function: `updateProject(project_id, description, is_private, members)`
+**Pallet**: deip account: Choose any account with a positive balance function: `updateProject(project_id, description, is_private, members)`
 
 ```text
 {
@@ -106,7 +106,7 @@ Save Domain hash into blockchain. **Pallet**: deip Account: Choose any account w
 
 #### 1. Create project content \(aka IP asset\)
 
-**Pallet**: deip Account: Choose any account with positive balance Function: `createProjectContent(content)`
+**Pallet**: deip account: Choose any account with a positive balance function: `createProjectContent(content)`
 
 ```text
 {
@@ -125,11 +125,11 @@ Save Domain hash into blockchain. **Pallet**: deip Account: Choose any account w
 
 ### Access control
 
-Manage access permissions to specific IP asset with unique Proof-of-Share entries that confirm a specific user was granted access to an asset.
+Manage access permissions to specific IP asset with unique proof-of-share entries that confirm a specific user was granted access to an asset.
 
 #### 1. Create project NDA
 
-**Pallet**: deip Account: Choose any account with positive balance Function: `createProjectNda(external_id, end_date, contract_hash, maybe_start_date, parties, projects)`
+**Pallet**: deip account: Choose any account with a positive balance function: `createProjectNda(external_id, end_date, contract_hash, maybe_start_date, parties, projects)`
 
 ```text
 {
@@ -147,7 +147,7 @@ Manage access permissions to specific IP asset with unique Proof-of-Share entrie
 
 #### 2. Create NDA content access request
 
-**Pallet**: deip Account: Choose any account with positive balance Function: `createNdaContentAccessRequest(external_id, nda_external_id, encrypted_payload_hash, encrypted_payload_iv)`
+**Pallet**: deip account: Choose any account with a positive balance function: `createNdaContentAccessRequest(external_id, nda_external_id, encrypted_payload_hash, encrypted_payload_iv)`
 
 ```text
 {
@@ -160,7 +160,7 @@ Manage access permissions to specific IP asset with unique Proof-of-Share entrie
 
 #### 3. Fulfill or reject NDA content access request
 
-**Pallet**: deip Account: Choose any account with positive balance Function: `fulfillNdaContentAccessRequest(external_id, encrypted_payload_encryption_key, proof_of_encrypted_payload_encryption_key)`
+**Pallet**: deip account: Choose any account with a positive balance function: `fulfillNdaContentAccessRequest(external_id, encrypted_payload_encryption_key, proof_of_encrypted_payload_encryption_key)`
 
 ```text
 {
@@ -172,7 +172,7 @@ Manage access permissions to specific IP asset with unique Proof-of-Share entrie
 
 OR
 
-**Pallet**: deip Account: Choose any account with positive balance Function: `rejectNdaContentAccessRequest(external_id)`
+**Pallet**: deip account: Choose any account with a positive balance function: `rejectNdaContentAccessRequest(external_id)`
 
 ```text
 {

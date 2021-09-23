@@ -33,6 +33,7 @@
   * [Rust setup](develop/substrate-based-chain/rust-setup.md)
   * [Testing guide](develop/substrate-based-chain/testing-guide.md)
   * [Substrate-based chain docs](https://deipworld.github.io/deip-substrate/pallet_deip/)
+  * [Event-Proxy module](develop/substrate-based-chain/event-proxy-module.md)
 * [Legacy](develop/legacy/README.md)
   * [Graphene](develop/legacy/deip-graphene/README.md)
     * [Building](develop/legacy/deip-graphene/building.md)

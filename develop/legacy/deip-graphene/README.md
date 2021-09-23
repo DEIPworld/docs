@@ -24,7 +24,7 @@ docker logs -f deipd-default  # follow along
 
 ### Dockerized full node
 
-To run a node with _all_ the data \(e.g. for supporting a content website\) that uses around 14GB of memory and growing:
+To run a node with _all_  the data \(e.g. for supporting a content website\) that uses around 14GB of memory and growing:
 
 ```text
 docker run \
@@ -43,11 +43,11 @@ There are quite a few environment variables that can be set to run deipd in diff
 * `USE_FULL_WEB_NODE` - if set to true, a default config file will be used that enables a full set of API and associated plugins
 * `USE_NGINX_FRONTEND` - if set to true, this will enable an NGINX reverse proxy in front of deipd that proxies WebSocket requests to deipd; this will also enable a custom health check at the path '/health' that lists how many seconds away from the current blockchain time your node is; it will return a '200' if it's less than 60 seconds away from sync
 * `USE_MULTICORE_READONLY` - if set to true, this will enable deipd in multiple reader modes to take advantage of multiple cores \(if available\); read requests are handled by the read-only nodes and write requests are forwarded back to the single 'writer' node automatically; NGINX load balances all requests to the reader nodes, 4 per available core; this setting is still considered experimental and may have trouble with some API calls until further development is completed
-* `HOME` - set this to the path where you want deipd to store it's data files \(block log, shared memory, config file, etc.\); by default /var/lib/deipd is used and exists inside the docker container; if you want to use a different mountpoint \(like a ramdisk, or a different drive\) then you may want to set this variable to map the volume to your docker container.
+* `HOME` - set this to the path where you want deipd to store its data files \(block log, shared memory, config file, etc.\); by default /var/lib/deipd is used and exists inside the docker container; if you want to use a different mountpoint \(like a ramdisk, or a different drive\) then you may want to set this variable to map the volume to your docker container
 
 ## PaaS mode
 
-Deipd now supports a PaaS model \(platform as a service\) that currently works with Amazon's Elastic Beanstalk service. It can be launched using the following environment variables:
+Deipd now supports a PaaS \(platform-as-a-service\) model that currently works with Amazon's Elastic Beanstalk service. It can be launched using the following environment variables:
 
 * `USE_PAAS` - if set to true, deipd will launch in a format that works with AWS EB; containers will exit upon failure so that they can be relaunched automatically by ECS; this mode assumes `USE_WAY_TOO_MUCH_RAM` and `USE_FULL_WEB_NODE`, which also don't need to be set
 * `S3_BUCKET` - set this to the name of the S3 bucket where you will store shared memory files for deipd in Amazon S3; they will be stored compressed in bz2 format with the file name `blockchain-$VERSION-latest.tar.bz2`, where $VERSION is the release number followed by the git short commit hash stored in each docker image at `/etc/deipdversion`

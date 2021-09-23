@@ -6,7 +6,9 @@ description: >-
 
 # Rust setup
 
-Since Substrate is built with [the Rust programming language](https://www.rust-lang.org/), the first thing you will need to do is prepare the computer for Rust development - these steps will vary based on the computer's operating system. Once Rust is configured, you will use its toolchains to interact with Rust projects; the commands for Rust's toolchains will be the same for all supported, Unix-based operating systems.
+Since Substrate is built with [the Rust programming language](https://www.rust-lang.org/), the first thing you will need to do is prepare the computer for Rust development. Тhe steps you take will vary based on the computer's operating system. 
+
+Once Rust is configured, you will use its toolchains to interact with Rust projects; the commands for Rust's toolchains will be the same for all supported, Unix-based operating systems.
 
 ## Unix-based operating systems
 
@@ -14,7 +16,7 @@ Substrate development is easiest on Unix-based operating systems like macOS or L
 
 ### macOS
 
-Open the Terminal application and execute the following commands:
+Open the terminal application and execute the following commands:
 
 ```text
 # Install Homebrew if necessary https://brew.sh/
