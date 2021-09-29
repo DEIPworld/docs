@@ -55,11 +55,11 @@ First, launch a node. [Open the Polkadot JS Apps UI](https://polkadot.js.org/app
 
 ### Basic working group management \(DAO\)
 
-For basic working group management we integrate with [multisig pallet](https://docs.rs/pallet-multisig/3.0.0/pallet_multisig/). To create an account, go to Accounts &gt; Accounts &gt; + Multisig. All Exterenics below can be executed on behalf of a Multisig account as a working group.
+For basic working group management we integrate with [multisig pallet](https://docs.rs/pallet-multisig/3.0.0/pallet_multisig/). To create an account, go to Accounts &gt; Accounts &gt; + Multisig. All Extrinsics below can be executed on behalf of a Multisig account as a working group.
 
 ### Project and IP management
 
-Go to Developer &gt; Exterenics. Each following step required submit signed transaction.
+Go to Developer &gt; Extrinsics. Each following step required submit signed transaction.
 
 #### 1. Create domain
 
